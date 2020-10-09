@@ -2541,10 +2541,10 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
+		/*-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: wrap;*/
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
@@ -2552,10 +2552,11 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		border: 5px solid yellow;
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
+			padding: 4em 3em 1.5em 5em ;
 			display: block;
 			position: relative;
 			text-align: left;
